@@ -10,6 +10,8 @@ navbar:
     - text: Problem 2
       href: https://github.com/MeanStudent/p8105_hw2_kh3074
   right:
+    - text: "Problem 2"
+      href: problem2.html
     - text: "Resume"
       href: Resume.html
     - text: "About"

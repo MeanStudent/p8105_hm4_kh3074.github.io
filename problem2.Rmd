@@ -1,0 +1,81 @@
+---
+title: "DashBoard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("instacart")
+ny_noaa =  
+  rnoaa::meteo_pull_monitors(
+    c("USW00094728", "USC00519397", "USS0023B17S"),
+    var = c("PRCP", "TMIN", "TMAX"), 
+    date_min = "2017-01-01",
+    date_max = "2017-12-31") %>%
+  mutate(
+    name = recode(
+      id, 
+      USW00094728 = "CentralPark_NY", 
+      USC00519397 = "Waikiki_HA",
+      USS0023B17S = "Waterhole_WA"),
+    tmin = tmin / 10,
+    tmax = tmax / 10) %>%
+  select(name, id, everything())
+data("rest_inspec")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Box plot
+
+```{r}
+box_plot = 
+rest_inspec%>%
+  filter(str_detect(dba,"[Pp][Ii][Zz][Zz][Aa]"))%>%
+  group_by(boro)%>%
+  mutate(boro = fct_reorder(boro,score))%>%
+  ggplot(aes(x = boro,y=score,color = boro))+
+  geom_boxplot()+
+  coord_flip()+
+  ggtitle("pizza scores in each boro")
+ggplotly(box_plot)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Line plot
+
+```{r}
+line_plot = 
+  ny_noaa%>%
+  ggplot(aes(x = date,y = tmax,color = name))+
+  geom_line()+
+  ggtitle("tmax of three places in 2017")
+ggplotly(line_plot)
+```
+
+### Scatter plot
+
+```{r}
+set.seed(2333)
+scatter_plot = 
+instacart%>%
+  sample_n(100000)%>% #sample size=100000,random seed = 2333
+  group_by(department)%>%
+  summarize(numbers = n())%>%
+  mutate(department = fct_reorder(department,numbers))%>%
+  ggplot(aes(x = department,y = numbers,color = department))+
+  geom_point()+
+  coord_flip()+
+  ggtitle("Items bought in each department")
+ggplotly(scatter_plot)
+```
+

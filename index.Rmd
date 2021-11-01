@@ -9,15 +9,15 @@ output:
 # Introduction  
 - This is a web site of my data science homework 4!   
 
-## Homework 4
+### Homework 4
 - This is a homework about interactive.  
 
-### Problem 1
+##### Problem 1
 - Landing page description.
 - Resume page.
 - Links in the site navigation for your GitHub account, your email, and other professional networks.
 
-### Problem 2
+##### Problem 2
 - Potly exercise.
 
 ## Resume
