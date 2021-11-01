@@ -11,11 +11,13 @@ output:
 - Tel: 9172382465
 
 # Education background
-- 2016 Renmin University of China in statistic school.
+- 2016 Renmin University of China in statistic school.  
+
 ![Renmin Unversity](http://www.sinaimg.cn/dy/c/2007-10-16/U2342P1T1D14098055F21DT20071016140843.jpg)
 
 
-- 2021 Columbia University mailman shcool of public health
+- 2021 Columbia University mailman shcool of public health.  
+
 ![Columbia University](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-X2cjz-9IQg0Ur3t-YRP_irDvsNfkqgGLTQ&usqp=CAU)
 
 
