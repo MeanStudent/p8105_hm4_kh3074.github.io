@@ -3,25 +3,21 @@ output_dir: "."
 navbar:
   title: "Home"
   left:
-    - text: Homeworks
-    - menu: 
-      - text: Homework 1
-      - herf: https://github.com/MeanStudent/P8105_hw1_kh3074
-      - text: Homework 2
-      - herf: https://github.com/MeanStudent/p8105_hw2_kh3074
-      - text: Homework 3
-      - herf: https://github.com/MeanStudent/p8105_hw3_kh3074
-      - text: Homework 4
-      - herf: https://github.com/MeanStudent/p8105_hm4_kh3074.github.io
+  - text: Homeworks
+    menu: 
+    - text: Problem 1
+      href: https://github.com/MeanStudent/p8105_hm4_kh3074.github.io/blob/main/Resume.html
+    - text: Problem 2
+      href: https://github.com/MeanStudent/p8105_hw2_kh3074
   right:
-    - text: Resume
-      herf: Resume.html
+    - text: "Resume"
+      href: Resume.html
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:<kh3074@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/Mean_Student/
+      href: https://github.com/MeanStudent/
 output:
   html_document:
    theme: darkly

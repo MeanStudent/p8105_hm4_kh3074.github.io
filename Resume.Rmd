@@ -5,27 +5,26 @@ output:
     toc: true 
     toc_float: true 
 ---
+# Personal information
+- Birth day: 04/10/1998(MM/DD/YYYY)
+- Email: kh3074@cumc.Columbia.edu
+- Tel: 9172382465
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Education background
+- 2016 Renmin University of China in statistic school.
+![Renmin Unversity](http://www.sinaimg.cn/dy/c/2007-10-16/U2342P1T1D14098055F21DT20071016140843.jpg)
+- 2021 Columbia University mailman shcool of public health
+![Columbia University](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-X2cjz-9IQg0Ur3t-YRP_irDvsNfkqgGLTQ&usqp=CAU)
+# Skills
+- Python,R,SQL,Office,Photoshop
 
-## R Markdown
+# Internship
+- No internship
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# Work experience
+- 89-Trillion
+  - Title: Numeric designer
+  - Content:
+    - Set basic numeric values in the game.
+    - Design and maintain core play.
+    

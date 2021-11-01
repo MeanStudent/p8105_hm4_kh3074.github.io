@@ -1,5 +1,5 @@
 ---
-title: "KaiYu's First website"
+title: "Homework 4 website"
 output: 
   html_document:
     toc: true 
@@ -7,28 +7,20 @@ output:
 ---
 
 # Introduction  
-- I intend to make a web site recording all my data science home works.   
+- This is a web site of my data science homework 4!   
 
-## Homeworks
-- All the homeworks in data science course.  
+## Homework 4
+- This is a homework about interactive.  
 
-### Homework 1
-- This homework is mainly about how using github.
+### Problem 1
+- Landing page description.
+- Resume page.
+- Links in the site navigation for your GitHub account, your email, and other professional networks.
 
-### Homework 2
-- This homework is mainly about data tidy using tidyverse!
-
-### Homework 3
-- This homework is mainly about data visualization.
-
-### Homework 4
-- This homework is mainly about interactive.
-
+### Problem 2
+- Potly exercise.
 
 ## Resume
 - This page is talking about my 
 
 ![Yeah](p8105_stickers.png)
-* [About me](about.html)
-
-##
