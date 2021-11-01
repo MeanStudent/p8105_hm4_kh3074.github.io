@@ -1,0 +1,27 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  left:
+    - text: Homeworks
+    - menu: 
+      - text: Homework 1
+      - herf: https://github.com/MeanStudent/P8105_hw1_kh3074
+      - text: Homework 2
+      - herf: https://github.com/MeanStudent/p8105_hw2_kh3074
+      - text: Homework 3
+      - herf: https://github.com/MeanStudent/p8105_hw3_kh3074
+      - text: Homework 4
+      - herf: https://github.com/MeanStudent/p8105_hm4_kh3074.github.io
+  right:
+    - text: Resume
+      herf: Resume.html
+    - text: "About"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<kh3074@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/Mean_Student/
+output:
+  html_document:
+   theme: darkly

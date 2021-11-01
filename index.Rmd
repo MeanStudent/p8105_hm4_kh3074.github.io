@@ -1,0 +1,34 @@
+---
+title: "KaiYu's First website"
+output: 
+  html_document:
+    toc: true 
+    toc_float: true 
+---
+
+# Introduction  
+- I intend to make a web site recording all my data science home works.   
+
+## Homeworks
+- All the homeworks in data science course.  
+
+### Homework 1
+- This homework is mainly about how using github.
+
+### Homework 2
+- This homework is mainly about data tidy using tidyverse!
+
+### Homework 3
+- This homework is mainly about data visualization.
+
+### Homework 4
+- This homework is mainly about interactive.
+
+
+## Resume
+- This page is talking about my 
+
+![Yeah](p8105_stickers.png)
+* [About me](about.html)
+
+##
