@@ -21,6 +21,6 @@ output:
 - Potly exercise.
 
 ## Resume
-- This page is talking about my 
+- This page is talking about my experiences
 
 ![Yeah](p8105_stickers.png)
